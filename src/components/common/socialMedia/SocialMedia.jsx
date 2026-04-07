@@ -9,10 +9,10 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialIcons = [
-  { icon: faFacebookF, link: "https://facebook.com" },
-  { icon: faGithub, link: "https://github.com" },
-  { icon: faInstagram, link: "https://instagram.com" },
-  { icon: faLinkedin, link: "https://linkedin.com" },
+  { icon: faFacebookF, link: "https://www.facebook.com/foyez.kafi/" },
+  { icon: faGithub, link: "https://github.com/foyezkafi" },
+  { icon: faInstagram, link: "https://www.instagram.com/foyez_kafi/" },
+  { icon: faLinkedin, link: "https://www.linkedin.com/in/foyezkafi/" },
   { icon: faBehance, link: "https://behance.net" },
 ];
 
