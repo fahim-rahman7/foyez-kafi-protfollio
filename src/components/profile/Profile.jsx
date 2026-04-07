@@ -52,7 +52,7 @@ const Profile = () => {
                help businesses grow and strengthen their online presence.
             </p>
           </div>
-          <div className="mt-8 flex max-md:justify-center">
+          {/* <div className="mt-8 flex max-md:justify-center">
             <a
               className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
               href="#!"
@@ -65,7 +65,7 @@ const Profile = () => {
             >
               <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
