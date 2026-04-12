@@ -1,4 +1,5 @@
-import person from "../../assets/images/person2.png";
+
+import third from "../../assets/kafiimages/third.jpeg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
@@ -15,7 +16,7 @@ const Profile = () => {
           <div className="max-w-106 h-117 object-fill overflow-hidden rounded-xl">
             <img
               className="bg-soft-white h-[120%] object-cover"
-              src={person}
+              src={third}
               alt=""
             />
           </div>
@@ -52,7 +53,7 @@ const Profile = () => {
                help businesses grow and strengthen their online presence.
             </p>
           </div>
-          <div className="mt-8 flex max-md:justify-center">
+          {/* <div className="mt-8 flex max-md:justify-center">
             <a
               className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
               href="#!"
@@ -65,7 +66,7 @@ const Profile = () => {
             >
               <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

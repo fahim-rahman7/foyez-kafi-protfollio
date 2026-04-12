@@ -12,18 +12,20 @@ const WorkTogether = () => {
           I'm always open to discussing new projects and creative ideas. Let's
           connect and build something amazing together.
         </p>
-        <a
-          href="#!"
-          className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
-        >
-          Let's work Together
-          <FontAwesomeIcon
-            icon={faArrowRight}
-            size="l"
-            style={{ color: "#FFFFFF" }}
-            className="ms-3"
-          />
-        </a>
+    <a
+  href="https://wa.me/8801319877320"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
+>
+  Let's work Together
+  <FontAwesomeIcon
+    icon={faArrowRight}
+    size="l"
+    style={{ color: "#FFFFFF" }}
+    className="ms-3"
+  />
+</a>
       </div>
     </div>
   );

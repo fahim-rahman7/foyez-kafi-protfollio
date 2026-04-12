@@ -13,7 +13,7 @@ const socialIcons = [
   { icon: faGithub, link: "https://github.com/foyezkafi" },
   { icon: faInstagram, link: "https://www.instagram.com/foyez_kafi/" },
   { icon: faLinkedin, link: "https://www.linkedin.com/in/foyezkafi/" },
-  { icon: faBehance, link: "https://behance.net" },
+  // { icon: faBehance, link: "https://behance.net" },
 ];
 
 const SocialMedia = () => {

@@ -1,4 +1,4 @@
-import logo from "../../../assets/logo.png";
+import mainnlogo from "../../../assets/kafiimages/mainlogo.png"
 
 /* Footer nabLinks */
 const navItems = [
@@ -17,9 +17,9 @@ const Footer = () => {
     <div className="pt-25 md:pt-40 content max-2xl:px-3">
       <div className="flex max-md:flex-col justify-between mx-0 items-center h-full w-full text-neutral-200">
         <a href="#" className="flex items-center border-0">
-          <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
+          <img src={mainnlogo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
           <p className="text-3xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-            Brooklyn
+            Foyez kafi
           </p>
         </a>
         <div className="mx-7 max-md:my-7 text-center">
@@ -35,17 +35,17 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-[12px] sm:text-[16px]">
-          Copyright &copy; {copyrightYear} Picto.
+          Copyright &copy; {copyrightYear} kafi.
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-        Developed with ❤️ by{" "}
+        Developed with  by{" "}
         <a
-          href="https://www.themewagon.com"
+          href="https://www.facebook.com/foyez.kafi"
           className="underline font-bold"
           target="_blank"
         >
-          ThemeWagon
+          Foyez kafi
         </a>
       </p>
     </div>

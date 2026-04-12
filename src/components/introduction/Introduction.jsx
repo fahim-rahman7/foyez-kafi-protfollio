@@ -47,7 +47,7 @@ const Introduction = () => {
           <p className="text-center lg:text-start">
             <Link
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="tel:+88 01319877320"
+              href="https://wa.me/8801319877320"
             >
               Say Hello!
             </Link>

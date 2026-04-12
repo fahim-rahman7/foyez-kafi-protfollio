@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import mainlogo from "../../../assets/icons/mainlogo.png"
+import mainlogo from "../../../assets/kafiimages/mainlogo.png"
 import { Link } from "react-scroll";
 
 const navItems = [
@@ -7,7 +7,7 @@ const navItems = [
   { id: 2, name: "About", url: "profile" },
   { id: 3, name: "Process", url: "work-process" },
   { id: 4, name: "Portfolio", url: "portfolio" },
-  { id: 5, name: "Blog", url: "blog" },
+
   { id: 6, name: "Services", url: "services" },
 ];
 
